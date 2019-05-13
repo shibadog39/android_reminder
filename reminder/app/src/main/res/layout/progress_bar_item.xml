@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Based on https://material.google.com/components/subheaders.html#subheaders-list-subheaders -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#00000000">
+
+        <ProgressBar
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:indeterminateTintMode="src_in" />
+
+    </FrameLayout>
+
+</layout>

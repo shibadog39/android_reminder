@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item
+        type="id"
+        name="binding_recycler_view_adapter_item_model" />
+
+    <item
+        type="id"
+        name="grouped_recycler_view_adapter_item_view_model" />
+
+    <item
+        type="id"
+        name="grouped_recycler_view_adapter_item_view_model_index" />
+
+    <item
+        type="id"
+        name="recycler_view_bindings_key_items" />
+
+    <item
+        type="id"
+        name="recycler_view_bindings_key_click_handler" />
+
+    <item
+        type="id"
+        name="recycler_view_bindings_key_long_click_handler" />
+
+    <item
+        type="id"
+        name="recycler_view_bindings_key_item_move_enable" />
+
+    <item
+        type="id"
+        name="data_bindings_extensions_key_web_view_client" />
+
+    <item
+        type="id"
+        name="key_simple_recycler_view_adapter_item" />
+
+    <item
+        type="id"
+        name="key_simple_recycler_view_adapter_position" />
+
+    <item
+        type="id"
+        name="key_sortable_recycler_view_adapter_item" />
+
+    <item
+        type="id"
+        name="key_paging_recycler_view_adapter_item" />
+
+    <item
+        type="id"
+        name="key_paging_recycler_view_adapter_position" />
+
+    <item
+        type="id"
+        name="key_sectioned_recycler_view_adapter_item" />
+
+    <item
+        type="id"
+        name="key_sectioned_recycler_view_adapter_section_index" />
+
+    <item
+        type="id"
+        name="key_list_divider_item_decoration" />
+
+    <item
+        type="id"
+        name="key_simple_view_pager_adapter_item" />
+
+    <item
+        type="id"
+        name="key_simple_view_pager_adapter_position" />
+
+    <item
+        type="id"
+        name="key_simple_grid_view_adapter_item" />
+
+    <item
+        type="id"
+        name="key_simple_grid_view_adapter_position" />
+
+</resources>
