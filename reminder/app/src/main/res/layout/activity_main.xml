@@ -7,7 +7,7 @@
 
         <variable
             name="view"
-            type="com.asahina.test.MainActivity" />
+            type="com.asahina.test.ui.MainActivity" />
 
     </data>
 
