@@ -3,12 +3,23 @@ package com.asahina.test.preference
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
 import com.asahina.test.BaseApplication
+import com.asahina.test.item.ReminderItemList
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.internal.`$Gson$Types`
 
 
 class Preferences {
+
+    private val KEY_REMINDER_LIST = "KEY_REMINDER_LIST"
+
+    fun saveReminderList(list: List<ReminderItemList>){
+        setObject(KEY_REMINDER_LIST, list)
+    }
+
+    fun loadReminderList(): MutableList<ReminderItemList> {
+        return getObjectList(KEY_REMINDER_LIST, ReminderItemList::class.java)
+    }
 
     //region ラッパーメソッドなどの定義
     private val SHARED_PREFERENCES_NAME = "PreferencesUtils"
